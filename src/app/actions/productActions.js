@@ -1,6 +1,5 @@
 
 import { SET_PRODUCTS,ADD_PRODUCT,PRODUCT_FETCHED,PRODUCT_UPDATED,PRODUCT_DELETED} from './action-types/product-actions'
-var base_url_api="https://b8491680.ngrok.io/"
 function handleResponse(response) {
   if (response.ok) {
     return response.json();
